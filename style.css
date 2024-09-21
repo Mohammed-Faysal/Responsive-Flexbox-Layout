@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    background: linear-gradient(90deg, #161a42 20%, #000 80%);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1;
+    gap: 30px;
+}
+
+.content1, .content2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.content1{
+    flex: 1;
+}
+
+.content2{
+    flex: 2;
+}
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.item1{
+    flex: 2;
+}
+
+.item2{
+    flex: 3;
+}
+
+
+.subContainer1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 3;
+}
+
+.subContainer2{
+    display: flex;
+    flex: 1;
+}
+
+.con1, .con2{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 30px;
+}
+
+.item3, .item6{
+    flex: 4;
+}
+
+.item4, .item5{
+    flex: 2;
+}
+
+.item7{
+    flex: 100%;
+}
+
+
+.img_name_post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.img_name_post img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.img_name_post .name_post h3{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
+    white-space: nowrap;
+}
+
+.img_name_post .name_post p{
+    font-size: 27px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+h4{
+    margin-top: 15px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.text{
+    margin-top: 15px;
+    font-size: 16px;
+}
